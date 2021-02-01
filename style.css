@@ -15,6 +15,13 @@ hr {
     margin: 2rem 0rem;
 }
 
+/** spaces **/
+
+.margin-md {
+    margin: 2rem;
+}
+
+
 /** container **/
 .container {
     padding-left: 0rem 1rem;

@@ -6,8 +6,30 @@
     <title>home | Adarshbalika</title>
     <link href="style.css" rel="stylesheet" />
 </head>
+<style>
+    body {
+        padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+    }
+</style>
 <body>
-    
+  
+  <button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
     <nav class="navigation container">
         <div class="nav-brand">IAMDEVELOPER</div>
         <ul class="list-non-bullet nav-pills">
@@ -29,7 +51,7 @@
             </span></h1>
     </header>
 
-    <section class="section ow">
+    <section class="section ow" style="color:black">
         <div class="container container-center">
             <h1> Technologies</h1>
             <p> I'm familiar with HTML5 , CSS3, Git, Javascript, NoeJS, ReactJS, and Web Hosting</p>
@@ -45,7 +67,7 @@
         </div>
     </section>
 
-    <section class="section ow">
+    <section class="section ow" style="color: black">
         <div class="container container-center">
             <h1> Blogs </h1>
             <p> I am also working on some technical and non-technical blogs. I like to document my journey of learning.</p>
